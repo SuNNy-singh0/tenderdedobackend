@@ -39,7 +39,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.mail.MessagingException;
 
 @Controller
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="https://tenderdedo.vercel.app/")
 public class RestController {
 @Autowired
 RegistrationService service;
